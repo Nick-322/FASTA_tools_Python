@@ -1,4 +1,4 @@
-# Python tools for FASTA 
+# Python tools for FASTA file editing and analysis
 This respository contains...
 
 ## Tools this repository contains...
@@ -27,8 +27,16 @@ ATGCAAGTCGAGCGGCAGCACAGAGGAACCTTGGGTGGCGAGCGGCGGAC
 
 Synopsis:
     
-    identify_match.py <FASTA file>
+    ./identify_match.py <FASTA file>
 
 ### homolog_identify.py
+homolog_identify.py is a Python alternative of homolog_identify.sh from FASTA-tools that performs the following:
 
+1. Identify putative homologous domains (= homologs) of query amino acid sequences in FASTA format.
+2. Use loops & conditional statements to identify which genes in a BED file contain the identified homologs.
+3. Write an output file containing the unique gene names (from a given BED file) which your script identified as containing predicted domains.
+
+Synopsis: 
+
+    ./homolog_identify.py <blast output> <BED file> <output file>
 
