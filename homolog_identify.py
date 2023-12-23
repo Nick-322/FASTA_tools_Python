@@ -70,7 +70,6 @@ unique_homolog = []
 for i in gene_list:
     if i not in unique_homolog:
         unique_homolog.append(i)
-        #or, I can use set() command like set(gene_list)
         
 #count the number of homolog hits
 print(len(unique_homolog))
