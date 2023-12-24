@@ -34,7 +34,7 @@ homolog_identify.py is a Python alternative of homolog_identify.sh from FASTA-to
 
 1. Identify putative homologous domains (= homologs) of query amino acid sequences in FASTA format.
 2. Use loops & conditional statements to identify which genes in a BED file contain the identified homologs.
-3. Write an output file containing the unique gene names (from a given BED file) which your script identified as containing predicted domains.
+3. Write an output file that contains a list of the unique gene names (from a given BED file) which your script identified as containing predicted domains.
 
 Synopsis: 
 
