@@ -51,4 +51,6 @@ The script performs the following tasks:
 4. If the gene is encoded on the "-" strand in the BED file, reverse & complement the sequence
 5. Write the sequences of the homologous genes to the specified output file in FASTA format along with a gene name as header.
 
-        ./find_homologs.py <blast file> <bed file> <assembly file> <output file>
+Synopsis:
+
+    ./find_homologs.py <blast file> <bed file> <assembly file> <output file>
