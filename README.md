@@ -45,10 +45,10 @@ Synopsis:
 find_homologs.py is an extension of homolog_identify.py that has an additional functionality.
 The script performs the following tasks:
 
-1. Processe a given BLAST output to keep only hits with >30% identity and 90% of query length (same as homolog_identify.py)
-2. Identify BED features (i.e., genes) that have a BLAST hit entirely within the boundaries of the feature start and end (same as homolog_identify.py)
-3. Extract the sequence of identified homologous genes from the assembly sequence
-4. If the gene is encoded on the "-" strand in the BED file, reverse & complement the sequence
+1. Processe a given BLAST output to keep only hits with >30% identity and 90% of query length (same as homolog_identify.py).
+2. Identify BED features (i.e., genes) that have a BLAST hit entirely within the boundaries of the feature start and end (same as homolog_identify.py).
+3. Extract the sequence of identified homologous genes from the assembly sequence.
+4. If the gene is encoded on the "-" strand in the BED file, reverse & complement the sequence.
 5. Write the sequences of the homologous genes to the specified output file in FASTA format along with a gene name as header.
 
 Synopsis:
