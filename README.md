@@ -1,5 +1,5 @@
 # Python tools for FASTA file editing and BLAST analysis
-This respository contains...
+This respository contains three Python tools that identify sequence match and homolog from blast results.
 
 ## Tools this repository contains...
 
